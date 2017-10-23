@@ -1,0 +1,281 @@
+.emblem-style {
+  text-align: center;
+  color: gray;
+  font-family: PTSans Regular;
+  font-size: 20px;
+}
+
+#line {
+  text-color: black !important;
+  width: 660px;
+}
+
+.style-webinar {
+  color: darkorange;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.ten-steps {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.button-reservation {
+  border-radius: 0 !important;
+  display: block;
+  text-align: center;
+  width: 300px;
+  justify-content: center;
+  color: white;
+  background: #FF4500;
+  border-bottom: solid 4px #FF0000;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  height: 55px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 20;
+}
+
+.info-speaker {
+  margin-top: 30px;
+  border: solid 1px;
+  color: #FF4500;
+  background: #FF4500;
+  height: 1000px;
+}
+
+.info-webinar {
+  margin-top: 30px;
+  height: 1000px;
+  background: #DCDCDC;
+}
+
+.day-of-week {
+  padding-top: 30px;
+  margin-bottom: 1px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.date-of-week {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.time-of-week {
+  color: white;
+  font-size: 15px;
+  border-top: dotted 1px;
+  padding-top: 8px;
+
+}
+
+.picture-date {
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.photo-speaker {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.about-speaker {
+  color: white;
+}
+
+.characteristic-of-speaker {
+  color: white;
+
+}
+
+.list {
+  padding-bottom: 20px;
+}
+
+.style-speaker {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.name-speaker {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.name-speaker {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.start-trans {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.timer-style1 {
+  font-size: 10px;
+  margin-right: 30px;
+}
+.timer-style2 {
+  font-size: 10px;
+  margin-right: 18px;
+}
+.timer-style3 {
+  font-size: 10px;
+  margin-right: 18px;
+}
+.timer-style4 {
+  font-size: 10px;
+  margin-right: 18px;
+}
+.timer {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 500;
+
+}
+@mixin timer() {
+  color: white;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  margin-right: 5px;
+  text-align: center;
+  padding: 0;
+}
+.timer #days {
+  @include timer();
+  border-color: black;
+
+}
+
+.timer #hours {
+  @include timer();
+  border-color: black;
+
+}
+
+.timer #minutes {
+  @include timer();
+  border-color: black;
+
+}
+
+.timer #seconds {
+  @include timer();
+  border-color: black;
+
+}
+.about-webinar {
+  font-weight:bold;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.list-style-image {
+  list-style-type: none;
+  font-size: 15px;
+  }
+.width-for-text {
+  font-weight: 800;
+}
+.marks {
+  color: red !important;
+}
+.format-style {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+#format-style-500 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.button-reservation2 {
+  border-radius: 0 !important;
+  display: block;
+  text-align: center;
+  width: 300px;
+  justify-content: center;
+  color: white;
+  background: #FF4500;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+.for-whom-webinar {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+.style3 {
+  border-top: 1px dashed #8c8b8b;
+  width: 830px;
+}
+.style-container {
+  background: #F5F5F5;
+  width: 1205px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+}
+.for-text {
+  font-size: 23px;
+  font-weight: 600;
+}
+.text {
+  font-size: 15px;
+  padding-top: 20px;
+}
+.font-weight {
+  font-weight: 800;
+}
+.coming-to-webinar {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.button-reservation3 {
+  border-radius: 0 !important;
+  display: block;
+  text-align: center;
+  width: 400px;
+  justify-content: center;
+  color: white;
+  background: #FF4500;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
